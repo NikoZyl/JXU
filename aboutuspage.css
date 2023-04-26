@@ -8,11 +8,12 @@
 body {
     background-color: rgb(255, 250, 182);
 }
-#hp{
-    text-align: center;
-    position:absolute;
-    top:9%;
-    right: 47%;
+#hh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
 }
 #search {
     position: absolute;
@@ -44,11 +45,8 @@ nav ul li a:hover {
     background-color: #b44242;
 }
 #footer {
-    position: absolute;
-    top: 950px;
-    width: 100%;
-    background-color: black;
     text-align: center;
+    background-color: #000000;
 }
 #fh1 {
     color: aliceblue;
@@ -66,18 +64,12 @@ nav ul li a:hover {
     position: absolute;
     left: 1%;
 }
-#mid {
-    text-align: center;
-    width: 619;
-    margin: auto;
-    position: absolute;
-    left: 32%;
-}
 #right {
     text-align: center;
     width: 619;
     margin: auto;
     position: absolute;
+    top: 705px;
     right: 5%;
 }
 .mySlides {
