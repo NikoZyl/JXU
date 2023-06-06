@@ -15,7 +15,7 @@ function sub1() {
     return;
   }
   //Detect whether the mailbox is formatted correctly
-  if (emailaddress.indexOf("@")!== 1) {
+  if (emailaddress.indexOf("@",0)== -1) {
     alert("Please enter the correct email format!")
     return;
   }
